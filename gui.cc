@@ -1,16 +1,16 @@
-// -----------------------------------------------------------
+// ---------------------------------------------------------------------------
 //
-// This file is part of kortex
+// This file is part of the <kortex> library suite
 //
 // Copyright (C) 2013 Engin Tola
 //
-// All rights reserved.
+// See LICENSE file for license information.
 //
 // author: Engin Tola
 // e-mail: engintola@gmail.com
+// web   : http://www.engintola.com
 //
-// -----------------------------------------------------------
-
+// ---------------------------------------------------------------------------
 #include "gui.h"
 #include <kortex/defs.h>
 #include <kortex/fileio.h>
