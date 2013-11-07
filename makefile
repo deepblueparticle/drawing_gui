@@ -8,7 +8,7 @@ minor_version := 1
 tiny_version  := 0
 # version := major_version . minor_version # depracated
 author := Engin Tola
-licence := GPL v2.0 or higher distributed by FSF
+licence := see LICENSE
 #
 # add you cpp cc files here
 #
@@ -16,9 +16,9 @@ sources := main.cc gui.cc
 #
 # output info
 #
-installdir := /home/tola/usr
+installdir := ${HOME}/usr
 external_sources :=
-external_libraries := kortex kortex-ext-opencv
+external_libraries := kortex-ext-opencv
 libdir := .
 srcdir := .
 includedir:= .
@@ -31,7 +31,7 @@ custom_cflags :=
 #
 # optimization & parallelization ?
 #
-optimize ?= false
+optimize ?= true
 parallelize ?= true
 boost-thread ?= false
 f77 ?= false
